@@ -1,4 +1,4 @@
-# reactjs-line-login
+# react-line-login
 
 > Made with create-react-library
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save reactjs-line-login
+npm install --save react-line-login
 ```
 
 ## Demo
@@ -23,8 +23,8 @@ https://developers.line.biz/en/docs/line-login/integrate-line-login/
 ```jsx
 import React, { useState } from 'react';
 
-import { LineLogin } from 'reactjs-line-login';
-import 'reactjs-line-login/dist/index.css';
+import { LineLogin } from 'react-line-login';
+import 'react-line-login/dist/index.css';
 
 const App = () => {
   const [payload, setPayload] = useState(null);
