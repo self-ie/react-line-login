@@ -9,7 +9,7 @@ import jwt from 'jsonwebtoken';
 
 const maxAge = 120;
 
-export const LineLogin = ({
+const LineLogin = ({
   children,
   clientID,
   clientSecret,
@@ -104,3 +104,5 @@ export const LineLogin = ({
     // </div>
   );
 };
+
+export default LineLogin;
