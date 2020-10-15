@@ -1,6 +1,6 @@
 {
   "name": "react-line-login",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A React component for LINE login",
   "author": "ale.gd",
   "license": "MIT",

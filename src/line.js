@@ -10,6 +10,7 @@ import jwt from 'jsonwebtoken';
 const maxAge = 120;
 
 export const LineLogin = ({
+  children,
   clientID,
   clientSecret,
   state,
@@ -94,7 +95,12 @@ export const LineLogin = ({
 
   return (
     <div className={styles.App}>
-      <div onClick={() => lineLogin()} className={styles.lineButton} />
+      <button
+        onClick={() => lineLogin()}
+        className={!children && styles.lineButton}
+      >
+        {children}
+      </button>
     </div>
   );
 };
