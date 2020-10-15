@@ -94,13 +94,13 @@ export const LineLogin = ({
   }, [clientID]);
 
   return (
-    <div className={styles.App}>
-      <button
-        onClick={() => lineLogin()}
-        className={!children && styles.lineButton}
-      >
-        {children}
-      </button>
-    </div>
+    // <div className={styles.App}>
+    <button
+      onClick={() => lineLogin()}
+      // className={!children && styles.lineButton}
+    >
+      {children}
+    </button>
+    // </div>
   );
 };
